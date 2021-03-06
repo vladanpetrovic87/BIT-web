@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- ● Create a form used for submitting &quot;Then VS Now&quot; dieting/workout images
+    and a description
+    ● The form should contain two file input fields
+    ● Both of the fields are file inputs
+    o They are used by the user for uploading the pictures of them and
+    showing what they looked like before they started working out, and
+    how they look now
+
+    ● The page has to have an area where the user can put a picture description
+    ● At the end of the form, there should be a submit button with text &quot;Send&quot;
+    that is used to submit the form
+    ● The form is submitted on page &quot;handle-upload.html&quot; and the user is
+    redirected to it upon pressing the button
+    ● This page should contain just a &quot;Form submitted successfully&quot;! message -->
+
+    <form action="./handle-upload.html">
+        <label for="pic">Before:</label>
+        <input type="file" name="picture" id="pic">
+        <p>Picture description:
+            <textarea name="text" cols="30" rows="5"></textarea>
+        </p>
+        <label for="pic">Now:</label>
+        <input type="file" name="picture" id="pic">
+        <p>Picture description:
+            <textarea name="text" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+
+
+</body>
+</html>
