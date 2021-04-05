@@ -1,0 +1,78 @@
+#first {
+    list-style-type: circle;
+}
+
+#second {
+    list-style-type: square;
+}
+
+#third {
+    list-style-type: upper-alpha;
+}
+
+#fourth {
+    list-style-type: upper-roman;
+}
+
+.fifth .sixth {
+    list-style-image: url(https://kids.kiddle.co/images/thumb/f/f1/Heart_coraz%C3%B3n.svg/300px-Heart_coraz%C3%B3n.svg.png);
+    width: 200px;
+}
+
+.sixth {
+    list-style-position: inside;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+form {
+    width: 200px;
+    margin: 10px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 50, 0, 50, 0;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h1 span {
+    color: gold;
+}
+
+button {
+    background-color: red;
+    width: 200px;
+    color: white;
+}
+
+
+
+
+
+
+

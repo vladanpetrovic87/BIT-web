@@ -1,0 +1,52 @@
+.first {
+    color: darkturquoise;
+    background-color: firebrick;
+    opacity: 0.5;
+}
+
+.second {
+    color: rgba(0, 206, 209, 0.5);
+    background-color: gray;
+}
+
+.third {
+    color: #00ced1;
+    background-color: hotpink;
+}
+
+.picture {
+    opacity: 0.7;
+}
+
+.picture1 {
+    background: rgba(59, 101, 107, 0.5);
+}
+
+.column1 {
+    background-color: aliceblue;
+}
+
+.column2 {
+    background-color: hotpink;
+}
+
+.column3 {
+    background-color: rgb(189, 104, 35);
+}
+
+.column4 {
+    background-color: rgb(91, 24, 136);
+}
+
+.column5 {
+    background-color: rgb(183, 235, 41);
+}
+
+table {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+tr td {
+    padding: 10px;
+}
