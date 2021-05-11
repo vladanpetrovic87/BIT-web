@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  
+  header,
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 14px;
+  }
+  
+  img {
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 4%;
+  }
+  
+  header h1 {
+    font-size: 50px;
+  }
+  
+  section {
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 4%;
+  }
+  
+  article {
+    width: 50%;
+    display: inline-block;
+    border-left: 2px solid black;
+    padding-left: 4%;
+  }
+  
+  h3 {
+    margin: 4%;
+    font-size: 30px;
+  }

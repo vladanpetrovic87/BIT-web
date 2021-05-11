@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: aqua;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: blue;
+} 
+
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    ul li {
+        border: 1px solid black;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    h1 {
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    ul li {
+        display: block;
+        float: right;
+        width: 80px;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 1%;
+    }
+
+    header img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    main article {
+        width: 100%;
+        float: left;
+        border: 1px solid grey;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    main img {
+        width: 40%;
+    }
+
+    main p {
+        display: inline-block;
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    h1 {
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    ul li {
+        display: block;
+        float: right;
+        width: 80px;
+        font-size: 20px;
+        padding: 5px;
+        margin-right: 3%;
+    }
+
+
+    header img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    main article {
+        display: block;
+        width: 33%;
+        float: left;
+        padding: 1%;
+    }
+    main img {
+        width: 90%;
+    }
+}
+
