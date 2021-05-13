@@ -1,0 +1,10 @@
+p {
+    color: blue;
+}
+.note {
+    color: green;
+}
+
+div > p {
+    background-color: aqua ;
+}
