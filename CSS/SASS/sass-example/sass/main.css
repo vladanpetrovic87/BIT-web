@@ -1,0 +1,37 @@
+.first {
+  margin: 16px;
+  border: 1px solid black;
+}
+
+.first p {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  color: red;
+  font-size: 18px;
+}
+
+.second {
+  border: 1px solid black;
+}
+
+.second p {
+  color: blue;
+}
+
+.second p:hover {
+  color: black;
+}
+
+.main-list {
+  background-color: royalblue;
+}
+
+.main-list ul {
+  background-color: salmon;
+}
+
+.main-list ul li a {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+.first {
+    margin: $common-margin;
+    border: 1px solid black;
+    p {
+        @include paragraph-default(10px);
+        color: $red-color;
+        font-size: $common-font-size;
+    }
+}
+
+.second {
+    border: 1px solid black;
+    p {
+        color: $blue-color;
+        &:hover {
+            color: black
+        };
+    }
+}
+
+
+.main-list {
+    background-color: royalblue;
+    ul {
+        background-color: salmon;
+        li {
+            a {
+                color: red;
+            }
+        }
+    }
+}
