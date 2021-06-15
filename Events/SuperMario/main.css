@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+#bg {
+  background-image: url(./bg.jpg);
+  height: 100vh;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#mario {
+    position: absolute;
+    height: 150px;
+    bottom: 140px;
+    left: 45%;
+}
